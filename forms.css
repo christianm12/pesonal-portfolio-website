@@ -1,0 +1,60 @@
+body{
+    font-family: Arial sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:
+    url(https://th.bing.com/th/id/R.ed3ad4046ade451e2f830a1895d8fca4?rik=hkH70PgnMQZhVA&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f04%2fbackground-pictures.jpg&ehk=vKIlTuCZFqVsk2RWqTp%2f381jeqoc3JqdSnw3YOoFzxo%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+form{
+    padding: 20;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0);
+    width: 300px;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;   
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ input[type="submit"]:hover {
+    background-color: #4caf50;
+ }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selesctor Example</title>
+    <link rel="stylesheet" href="selectortypes.css">
+</head>
+<body>
+
+    <!-- Universal Selector: selects all elements within a page. Example below -->
+    <div class="universal selector">
+        <p>This is a paragraph universal indicator with styles.</p>
+        <span>This is a span with universal selector styles.</span>
+    </div>
+
+    <!--Type/Element selector: this selector will select a given element . E.g Below  -->
+    <p>This is a paragraph type selector with styles.</p>
+    <div>This is a div with type selector styles.</div>
+
+    <!-- class selector: selects all elements within given class.
+        A class is an attribute you place  on a html file -->
+        <div class="highlight">This div has a highlight class</div>
+        <p class="highlight">This paragraph has a highlight class</p>
+
+        <!--ID Selectors are similar to class selectors
+        they select an element within the given id,which is another atrribute
+        you place on a html element.The major difference between classes and Id's
+        is that an element can have only one ID.It cannot be repeated on a single page
+        and should not contain any whitespace: eg below -->
+        <div id="myld">This div has an ID OF "myID"</div>
+
+        <!-- Attribute selector: selects elements with a specific attribute and value -->
+        <input type="text" placeholder="Text Input">
+
+        <!-- decendant selector:selects all decendats that are of a specific element -->
+        <article>
+            <p>This paragraph is inide an article</p>
+        </article>
+
+        <!-- child seletor:selects all direct children of a specified element -->
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+    </body>
+</html>
